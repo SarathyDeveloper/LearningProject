@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel=" icon" href="" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website-sec one</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d5e75352bd.js" crossorigin="anonymous"></script>
+</head>
+<body class="whole">
+    <section class="sub-header">
+        <nav>
+            <a href="intex.html"><img src="../IMG/logo.png" alt=""></a>
+            <div class="nav-links" id ="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="intex.html" class="menu">Home</a></li>
+                    <li><a href="about.html.html" class="menu">About</a></li>
+                    <li><a href="course.html" class="menu">Course</a></li>
+                    <li><a href="Blog.html" class="menu">Blog</a></li>
+                    <li><a href="contact.html" class="menu">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>About Us</h1>
+    </section>
+
+    <!-- --------------about us content----------- -->
+    <section class="about-us">
+<div class="row">
+    <div class="about-col">
+        <h1>we are largest univercity in the world</h1>
+        <p>This college is one of the renowned State Government Colleges in Higher Education, founded by Periyar Erode Venkata Ramasamy,
+        This college is one of the renowned State Government Colleges in Higher Education, founded by Periyar Erode Venkata Ramasamy,</p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="../IMG/about.jpg" >
+    </div>
+</div>
+    </section>
+
+<section class="footer">
+    <h4>About Us</h4>
+<p>This college is one of the renowned State Government Colleges in Higher Education</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-youtube"></i>
+    <p>Create By   <i class="fa fa-heart"></i>
+        SARATHY</p>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+    <!-- javascript for header -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

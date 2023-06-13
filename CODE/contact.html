@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel=" icon" href="" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website-sec one</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d5e75352bd.js" crossorigin="anonymous"></script>
+</head>
+<body class="whole">
+    <section class="sub-header">
+        <nav>
+            <a href="intex.html"><img src="../IMG/logo.png" alt=""></a>
+            <div class="nav-links" id ="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="intex.html" class="menu">Home</a></li>
+                    <li><a href="about.html.html" class="menu">About</a></li>
+                    <li><a href="course.html" class="menu">Course</a></li>
+                    <li><a href="Blog.html" class="menu">Blog</a></li>
+                    <li><a href="contact.html" class="menu">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Contact us</h1>
+    </section>
+
+    <!-- --------------Contact----------- -->
+
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125408.43411163785!2d78.70928146525002!3d10.81027252161025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf50ff2aecdad%3A0x6de02c3bedbbaea6!2sTiruchirappalli%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1668583716078!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Colony</h5>
+                        <p>Bangalore,Karnataka</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 9876543210</h5>
+                        <p>Monday to Friday  10.00 am to 10.00 pm</p>
+                    </span>
+                </div><div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>ajay123@gmail.com</h5>
+                        <p>Contact for Email</p>
+                    </span>
+                </div>
+            </div>
+<div class="contact-col">
+    <form action="">
+        <input type="text" placeholder="Enter Your Name"  required >
+        <input type="Email" placeholder="Enter Your Email" required >
+        <input type="text" placeholder="Enter Your Subject" required >
+        <textarea  rows="8" required></textarea>
+        <button type="submit" class="hero-btn red-btn">Send Message</button>
+    </form>
+
+</div>
+
+        </div>
+    </section>
+
+
+   <!-- --------footer----- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+<p>This college is one of the renowned State Government Colleges in Higher Education</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-youtube"></i>
+    <p>Create By   <i class="fa fa-heart"></i>
+        SARATHY</p>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+    <!-- javascript for header -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
